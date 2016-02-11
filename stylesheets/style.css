@@ -1,15 +1,23 @@
+
+html {
+    height: 100%;
+}
 body {
+  height: 100%;
+  margin: 0;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#493f4f+30,6b5e3d+86 */
   background: #493f4f; /* Old browsers */
   background: -moz-linear-gradient(-45deg, #493f4f 30%, #6b5e3d 86%); /* FF3.6-15 */
   background: -webkit-linear-gradient(-45deg, #493f4f 30%,#6b5e3d 86%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(135deg, #493f4f 30%,#6b5e3d 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#493f4f', endColorstr='#6b5e3d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 h1 {
   width: 141px;
   background: url(/images/logo.png) 0 0 no-repeat;
-  background-size: 50% 50%;
+  background-size: 141px 36.5px;
   height: 0;
   padding: 37px 0 0;
   margin: 10em auto;
