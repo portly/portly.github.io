@@ -23,7 +23,7 @@ h1 {
   overflow: hidden;
 }
 
-#donuts {
+.donuts {
   width: 50%;
   margin: 0 auto;
 }
