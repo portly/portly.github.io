@@ -3,9 +3,18 @@
   <head>
     <title>Portly</title>
     <link href="/stylesheets/style.css" media="all" rel="stylesheet" />
+    <script type="text/javascript" src="/js/instafeed.min.js"></script>
+    <script type="text/javascript">
+        var feed = new Instafeed({
+            get: 'tagged',
+            tagName: 'donut',
+            clientId: '3ac61495e98043d398e2ea59397ca1b8'
+        });
+        feed.run();
+    </script>
   </head>
   <body>
     <h1>Portly</h1>
-
+    <div id="instafeed"></div>
   </body>
 </html>

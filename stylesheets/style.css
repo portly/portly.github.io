@@ -19,6 +19,11 @@ h1 {
   background-size: 141px 36.5px;
   height: 0;
   padding: 37px 0 0;
-  margin: 10em auto;
+  margin: 3em auto;
   overflow: hidden;
+}
+
+#instafeed {
+  width: 30%;
+  margin: 0 auto;
 }
