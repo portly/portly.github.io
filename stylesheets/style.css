@@ -19,14 +19,25 @@ h1 {
   background-size: 141px 36.5px;
   height: 0;
   padding: 37px 0 0;
-  margin: 3em auto;
+  margin: 3em auto 2em;
   overflow: hidden;
 }
-
+p {
+  margin: 0 auto 2.5em;
+  width: 50%;
+  font-size: 1.8em;
+  color: #fff;
+  text-align: center;
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+  letter-spacing: 1.1px;
+  line-height: 2em;
+}
 .donuts {
   width: 50%;
   margin: 0 auto 10em;
 }
+
 .twitter-grid {
   color: transparent;
 }
